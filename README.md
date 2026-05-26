@@ -61,6 +61,9 @@ using `pip list --format=freeze`.
 
 - Some baseline directories are included for code completeness even when their
   corresponding evaluation artifacts are not distributed in this package.
+- Some baseline plotting or reporting scripts may still refer to `PBDD`; this
+  is an earlier name for the `GenGate` method used in the paper and in the
+  metadata files included here.
 - The `self-REF` directory reflects the adapted version used in this project,
   including the modified confidence-token setup required by the paper’s
   implementation.

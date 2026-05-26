@@ -1,4 +1,4 @@
-"""Shared memory-safe hidden-state extraction for Motivation step2 scripts."""
+"""Shared memory-safe hidden-state extraction for bundled step2 scripts."""
 
 from __future__ import annotations
 
