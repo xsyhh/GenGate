@@ -34,12 +34,7 @@ Your decision token
 """
 
 def get_decision_token(self_passed, expert_passed=None):
-    """
-    根据物理验证结果映射决策 Token (纯净二元版本)
-    逻辑：
-    1. 只有自己不会 (s=0) 且 专家会 (e=1) 时，才 Defer
-    2. 其他所有情况 (包括自己会 s=1，以及两人都不会 s=0, e=0)，全部交给自己做 (Self)
-    """
+
     return decision_token_from_passed(bool(self_passed))
 
 def parse_args():
