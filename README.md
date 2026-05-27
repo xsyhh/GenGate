@@ -26,8 +26,7 @@ scripts, and a small set of reference evaluation artifacts.
   - Hidden-state extraction utilities used to build probe feature manifests for
     the linear-routing baselines.
 - `metadata/`
-  - Reference routing metadata files retained for the main method and
-    `self-REF`.
+  - Reference routing metadata files retained for the main GenGate method.
 - `eval/`
   - Expert-output CSV files used by the evaluation pipeline.
 
@@ -37,9 +36,8 @@ The package includes a limited set of evaluation artifacts intended to document
 the core method outputs used in the paper.
 
 Included:
-- `12` routing metadata CSV files under `metadata/`
+- `6` routing metadata CSV files under `metadata/`
   - `6` files for the main method (`GenGate_*`)
-  - `6` files for `self-REF` (`self_ref_*`)
 - `3` expert-output CSV files under:
   - `eval/code/expert_output/`
   - `eval/math/expert_output/`
@@ -47,6 +45,7 @@ Included:
 
 Not included:
 - full baseline result tables
+- `self-REF` metadata CSV files
 - intermediate local-output CSV files
 - additional internal sweep artifacts not needed for understanding the core
   method implementation
