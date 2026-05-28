@@ -45,7 +45,6 @@ Included:
 
 Not included:
 - full baseline result tables
-- `self-REF` metadata CSV files
 - intermediate local-output CSV files
 - additional internal sweep artifacts not needed for understanding the core
   method implementation
